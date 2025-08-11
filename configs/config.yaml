@@ -1,0 +1,45 @@
+server:
+  port: 8080
+  host: "0.0.0.0"
+  read_timeout: 15
+  write_timeout: 15
+
+database:
+  host: "localhost"
+  port: 5432
+  user: "baabi"
+  password: ""
+  dbname: "paywall"
+  sslmode: "disable"
+  max_open_conns: 25
+  max_idle_conns: 5
+  conn_max_lifetime: 300
+
+cache:
+  host: "localhost"
+  port: 6379
+  password: ""
+  db: 0
+  pool_size: 10
+
+telemetry:
+  enabled: true
+  service_name: "scalable-paywall"
+  environment: "development"
+  version: "1.0.0"
+
+rate_limit:
+  enabled: true
+  requests_per: 100
+  window: 60
+
+payment:
+  gateway_url: "https://api.stripe.com"
+  api_key: "sk_test_..."
+  secret_key: "sk_test_..."
+  webhook_secret: "whsec_..."
+  circuit_breaker:
+    enabled: true
+    failure_threshold: 5
+    recovery_timeout: 60
+    half_open_requests: 3 
