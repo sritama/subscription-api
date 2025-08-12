@@ -1,4 +1,4 @@
-# PayFlow API
+# Subscription API
 
 A scalable paywall system designed to handle subscription-based content monetization for digital platforms. PayFlow provides comprehensive plan management, subscription handling, payment processing, and usage tracking capabilities.
 
