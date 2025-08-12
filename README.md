@@ -1,6 +1,6 @@
 # Subscription API
 
-A scalable paywall system designed to handle subscription-based content monetization for digital platforms. PayFlow provides comprehensive plan management, subscription handling, payment processing, and usage tracking capabilities.
+A scalable paywall system designed to handle subscription-based content monetization for digital platforms. Subscription API provides comprehensive plan management, subscription handling, payment processing, and usage tracking capabilities.
 
 ## 🚀 Features
 
@@ -15,7 +15,7 @@ A scalable paywall system designed to handle subscription-based content monetiza
 
 ## 🏗️ Architecture
 
-PayFlow is built with a microservices-based architecture:
+Subscription API is built with a microservices-based architecture:
 
 - **API Layer**: RESTful HTTP API using Gin framework
 - **Service Layer**: Business logic and validation
@@ -248,4 +248,4 @@ For support and questions:
 
 ---
 
-**PayFlow API** - Empowering digital content monetization with flexible, scalable subscription management. 
+**Subscription API** - Empowering digital content monetization with flexible, scalable subscription management. 
